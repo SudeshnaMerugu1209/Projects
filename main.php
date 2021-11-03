@@ -89,7 +89,7 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('Shogun','10','James Clavell','Blackstone Publishing','Historical fiction'),
 ('In the Woods','10','Tana French','Penguin Books','Mystery'),
 ('The Martian','10','Andy Weir','Crown Publishing','Science Fiction'),
-('The Handmaid's Tale: The Graphic Novel','10','Margaret Atwood','Knopf Doubleday Publishing Group','Speculative fiction'),
+('The Handmaid''s Tale: The Graphic Novel','10','Margaret Atwood','Knopf Doubleday Publishing Group','Speculative fiction'),
 ('The Big Sky','10','Alfred Bertram Guthrie','William Sloane Associates','Western Fiction'),
 ('In Search of Lost Time','10','Marcel Proust','Grasset and Gallimard','Philosophical fiction'),
 ('Crossroads','10','Jonathan Franzen','Farrar, Straus and Giroux','Literary fiction'),
@@ -97,7 +97,7 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('Trail of Lightning','10','Rebecca Roanhorse','Saga Press','Speculative fiction'),
 ('Educated','10','Tara Westover','Random House','Memoir'),
 ('War and Peace','10','Leo Tolstoy','Vintage','Historical fiction'),
-('The Silence of the Lambs','10','Thomas Harris','St. Martin's Press','Thriller'),
+('The Silence of the Lambs','10','Thomas Harris','St. Martin''s Press','Thriller'),
 ('A Game of Thrones','10','George R. R. Martin','Bantam Spectra','Fantasy'),
 ('Adventures of Huckleberry Finn','10','Mark Twain','Chatto & Windus / Charles L. Webster And Company','Literary realism'),
 ('Great Expectations','10','Charles Dickens','Chapman & Hall','Bildungsroman'),
@@ -108,10 +108,6 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('The 48 Laws of Power','10','Robert Greene','hg book centre','Self-help'),
 ('The Sun and Her Flowers','10','Rupi Kaur','Andrews McMeel Publishing','Poetry')";
 $conn->query($querybook);
-
-
-
-
 
 $conn->close();
 ?>

@@ -75,8 +75,38 @@ if($conn->query($querybooks)==FALSE){
 }
 
 $querybook = "INSERT INTO Books (Title,Quantity,Author,Publisher,Genre)
-VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary Fiction'), 
-('All the light we cannot see','5','Anthony','Harper Collins','Literary Fiction')";
+VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary Fiction'),
+('All the light we cannot see','5','Anthony','Harper Collins','Literary Fiction'),
+('The Color Purple','10','Alice Walker','Harcourt Brace Jovanovich','Historical fiction'),
+('The little Prince','10','Antoine de Saint-Exupéry','Clarion Books','Fiction'),
+('The Rebecca Notebook: and Other Memories','10','Daphne du Maurier','Victor Gollancz Ltd','Mystery'),
+('The Lincoln Highway','10','Amor Towles','Penguin Books','Literary fiction'),
+('The Name of the Wind','10','Patrick Rothfuss','DAW Books','Fantasy'),
+('One Hundred Years of Solitude','10','Gabriel García Márquez','Editorial Sudamericana, Harper & Row','Literary realism'),
+('The Catcher in the Rye','10','J. D. Salinger','Little, Brown and Company','Bildungsroman'),
+('The Ocean at the End of the Lane','10','Neil Gaiman','William Morrow and Company','Magical Realism'),
+('Riders of the Purple Sage','10','Zane Grey','Harper & Brothers, Grosset & Dunlap','Western Fiction'),
+('Shogun','10','James Clavell','Blackstone Publishing','Historical fiction'),
+('In the Woods','10','Tana French','Penguin Books','Mystery'),
+('The Martian','10','Andy Weir','Crown Publishing','Science Fiction'),
+('The Handmaid's Tale: The Graphic Novel','10','Margaret Atwood','Knopf Doubleday Publishing Group','Speculative fiction'),
+('The Big Sky','10','Alfred Bertram Guthrie','William Sloane Associates','Western Fiction'),
+('In Search of Lost Time','10','Marcel Proust','Grasset and Gallimard','Philosophical fiction'),
+('Crossroads','10','Jonathan Franzen','Farrar, Straus and Giroux','Literary fiction'),
+('The House of the Spirits','10','Isabel Allende','Alfred A. Knopf','Magical Realism'),
+('Trail of Lightning','10','Rebecca Roanhorse','Saga Press','Speculative fiction'),
+('Educated','10','Tara Westover','Random House','Memoir'),
+('War and Peace','10','Leo Tolstoy','Vintage','Historical fiction'),
+('The Silence of the Lambs','10','Thomas Harris','St. Martin's Press','Thriller'),
+('A Game of Thrones','10','George R. R. Martin','Bantam Spectra','Fantasy'),
+('Adventures of Huckleberry Finn','10','Mark Twain','Chatto & Windus / Charles L. Webster And Company','Literary realism'),
+('Great Expectations','10','Charles Dickens','Chapman & Hall','Bildungsroman'),
+('The Time Machine','10','H. G. Wells','William Heinemann','Science Fiction'),
+('Apples Never Fall','10','Liane Moriarty','Holt, Henry & Company, Inc.','Thriller'),
+('The Glass Castle','10','Jeannette Walls','Scribner','Memoir'),
+('Milk and honey','10','Rupi Kaur','Andrews McMeel Publishing','Poetry'),
+('The 48 Laws of Power','10','Robert Greene','hg book centre','Self-help'),
+('The Sun and Her Flowers','10','Rupi Kaur','Andrews McMeel Publishing','Poetry')";
 $conn->query($querybook);
 
 

@@ -1,0 +1,31 @@
+button.slogin:hover{
+    background-color: rgb(216, 197, 168);
+    color: white;
+}
+.slogin{
+    height: 27px;
+}
+.container {
+    height: 200px;
+    background-image:url(library.jpeg);
+    position: relative;
+    border: 5px solid rgb(48, 7, 7);
+  }
+  .vertical-center {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateX(450%);
+  }
+  .vertical-center1 {
+    margin: 0px;
+    position: absolute;
+    top: 65%;
+    -ms-transform: translateY(-50%);
+    transform: translateX(455%);
+  }
+  body{
+      background-color: rgb(219, 206, 181);
+  }
+  

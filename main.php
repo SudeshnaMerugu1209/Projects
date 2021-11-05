@@ -106,7 +106,49 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('The Glass Castle','10','Jeannette Walls','Scribner','Memoir'),
 ('Milk and honey','10','Rupi Kaur','Andrews McMeel Publishing','Poetry'),
 ('The 48 Laws of Power','10','Robert Greene','hg book centre','Self-help'),
-('The Sun and Her Flowers','10','Rupi Kaur','Andrews McMeel Publishing','Poetry')";
+('The Sun and Her Flowers','10','Rupi Kaur','Andrews McMeel Publishing','Poetry')
+('Pride and Prejudice','5','Jane Austen','Penguin Publications','Classics'),
+ ('Jane Eyre','15','Charlotte Bronte','Penguin Publications','Classics'),
+ ('Kashi','6','Vineet Bajpai','Treeshade books','Fiction'),
+ ('The Lost Symbol','7','Dan Brown','Doubleday','Thriller'),
+ ('The Da Vinci Code','5','Dan Brown','Doubleday','Thriller'),
+ ('Origin','4','Dan Brown','Doubleday','Thriller'),
+ ('Harappa','8','Vineet Bajpai','Treeshade Books','Fiction'),
+ ('Pralay','6','Vineet Bajpai','Treeshade Books','Fiction'),
+ ('I''ll give you the sun','10','Jandy Nelson','Dial Books','Fiction'),
+ ('Norwegian Wood','10','Haruki Murakami','Kodansha','Fiction'),
+ ('Never let me go','7','Kazuo Ishiguro','Faber and Faber','speculative fiction'),
+ ('Where the Crawdads Sing','10','Delia Owens','G.P Putnam''s Sons','Literary fiction'),
+ ('Eleanor Oliphant is completely fine','4','Gail Honeyman','Harper Collins','Fiction'),
+ ('Discrete Mathematics and Its Applications','30','Kenneth Rosen','McGraw Hill','Discrete Structures'),
+ ('Essential Discrete Mathematics for Computer Science','40','Harry Lewis','Princeton University Press','Discrete Structures'),
+ ('Essentials of Discrete Mathematics:Third Edition','50','David J.Hunter','Jones and Bartlett Learning','Discrete Structures'),
+ ('Discrete Mathematics and Its Applications: With Combinatorics and Graph Theory','50','Kenneth Rosen','McGraw Hill','Discrete Structures'),
+ ('Introductory discrete mathematics','40','V. Balakrishnan','Dover Books','Discrete Structures'),
+ ('Introduction to Algorithms, Third Edition','60','Thomas H. Cormen','The MIT Press','Data Structures and Algorithms'),
+ ('Data Structures and Algorithms Made Easy in Java','35','Narasimha Karumanchi','Careermonk Publications','Data Structures and Algorithms'),
+ ('Data structures and algorithms in C++:3rd Edition','45','Adam Drozdek','Thomson Press','Data Structures and Algorithms'),
+ ('Data Structures and Algorithms in Python','50','Michael H. Goldwasser','Wiley','Data Structures and Algorithms')
+ ('Algorithms Unlocked','55','Thomas H. Cormen','The MIT Press','Data Structures and Algorithms')
+ ('The Algorithm Design Manual','43','Steven S. Skiena','Springer Publications','Data Structures and Algorithms')
+('Advanced Data Structures','60','Peter Brass','Cambridge Press','Data Structures and Algorithms'),
+('Cracking the Coding Interview: 189 Programming Questions and Solutions 6th Edition','100','Gayle Laakmann McDowell','CareerCup','Data Structures and Algorithms')
+('Principles of Macroeconomics','50','N. Gregory Mankiw','Cengage Learning','Economics'),
+('Intermediate Microeconomics: A Modern Approach','50','Hal Varian','WW Norton & Co','Economics'),
+('Microeconomic Theory: Basic Principles and Extensions','50','Walter Nicholson','Economics'),
+('Microeconomic theory','40','Andreu Mas-Colell','Oxford University Press','Economics'),
+('Microeconomics: Principles, Problems, and Policies','30','Campbell McConnell','McGraw-Hill Education','Economics'),
+('Microeconomic Foundations I: Choice and Competitive Markets','31','David M. Kreps','Princeton University Press ','Economics'),
+('Microeconomics: Theory and Applications with Calculus ','25','Jeffrey Perloff','Pearson','Economics'),
+('Advanced Macroeconomics Fifth Edition','60','David Romer','McGraw-Hill Education','Economics'),
+('Linux Pocket Guide, Third Edition','50','Daniel J. Barrett','O''Reilly Media','Software Systems Lab'),
+('Linux Command Line and Shell Scripting Bible','36','Christine Bresnahan','Wiley India Pvt Ltd','Software Systems Lab'),
+('Linux System Programming','55','Robert Love','O''Reilly Media','Software Systems Lab'),
+('The Linux Command Line, 2nd Edition: A Complete Introduction','47','William Shotts','No Starch Press (RHPS)','Software Systems Lab'),
+('Version Control with Git','60','Jon Loeliger','O''Reilly Media','Software Systems Lab'),
+('Git Pocket Guide: A Working Introduction','60','Richard E. Silverman','O''Reilly Media','Software Systems Lab'),
+('Professional Git','30','Brent Laster','O'Reilly Media','Software Systems Lab'),
+";
 $conn->query($querybook);
 
 $conn->close();

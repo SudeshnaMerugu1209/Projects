@@ -108,29 +108,29 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('The 48 Laws of Power','10','Robert Greene','hg book centre','Self-help'),
 ('The Sun and Her Flowers','10','Rupi Kaur','Andrews McMeel Publishing','Poetry'),
 ('Pride and Prejudice','5','Jane Austen','Penguin Publications','Classics'),
- ('Jane Eyre','15','Charlotte Bronte','Penguin Publications','Classics'),
- ('Kashi','6','Vineet Bajpai','Treeshade books','Fiction'),
- ('The Lost Symbol','7','Dan Brown','Doubleday','Thriller'),
- ('The Da Vinci Code','5','Dan Brown','Doubleday','Thriller'),
- ('Origin','4','Dan Brown','Doubleday','Thriller'),
- ('Harappa','8','Vineet Bajpai','Treeshade Books','Fiction'),
- ('Pralay','6','Vineet Bajpai','Treeshade Books','Fiction'),
- ('I''ll give you the sun','10','Jandy Nelson','Dial Books','Fiction'),
- ('Norwegian Wood','10','Haruki Murakami','Kodansha','Fiction'),
- ('Never let me go','7','Kazuo Ishiguro','Faber and Faber','Speculative Fiction'),
- ('Where the Crawdads Sing','10','Delia Owens','G.P Putnam''s Sons','Literary fiction'),
- ('Eleanor Oliphant is completely fine','4','Gail Honeyman','Harper Collins','Fiction'),
- ('Discrete Mathematics and Its Applications','30','Kenneth Rosen','McGraw Hill','Discrete Structures'),
- ('Essential Discrete Mathematics for Computer Science','40','Harry Lewis','Princeton University Press','Discrete Structures'),
- ('Essentials of Discrete Mathematics:Third Edition','50','David J.Hunter','Jones and Bartlett Learning','Discrete Structures'),
- ('Discrete Mathematics and Its Applications: With Combinatorics and Graph Theory','50','Kenneth Rosen','McGraw Hill','Discrete Structures'),
- ('Introductory discrete mathematics','40','V. Balakrishnan','Dover Books','Discrete Structures'),
- ('Introduction to Algorithms, Third Edition','60','Thomas H. Cormen','The MIT Press','Data Structures and Algorithms'),
- ('Data Structures and Algorithms Made Easy in Java','35','Narasimha Karumanchi','Careermonk Publications','Data Structures and Algorithms'),
- ('Data structures and algorithms in C++:3rd Edition','45','Adam Drozdek','Thomson Press','Data Structures and Algorithms'),
- ('Data Structures and Algorithms in Python','50','Michael H. Goldwasser','Wiley','Data Structures and Algorithms'),
- ('Algorithms Unlocked','55','Thomas H. Cormen','The MIT Press','Data Structures and Algorithms'),
- ('The Algorithm Design Manual','43','Steven S. Skiena','Springer Publications','Data Structures and Algorithms'),
+('Jane Eyre','15','Charlotte Bronte','Penguin Publications','Classics'),
+('Kashi','6','Vineet Bajpai','Treeshade books','Fiction'),
+('The Lost Symbol','7','Dan Brown','Doubleday','Thriller'),
+('The Da Vinci Code','5','Dan Brown','Doubleday','Thriller'),
+('Origin','4','Dan Brown','Doubleday','Thriller'),
+('Harappa','8','Vineet Bajpai','Treeshade Books','Fiction'),
+('Pralay','6','Vineet Bajpai','Treeshade Books','Fiction'),
+('I''ll give you the sun','10','Jandy Nelson','Dial Books','Fiction'),
+('Norwegian Wood','10','Haruki Murakami','Kodansha','Fiction'),
+('Never let me go','7','Kazuo Ishiguro','Faber and Faber','Speculative Fiction'),
+('Where the Crawdads Sing','10','Delia Owens','G.P Putnam''s Sons','Literary fiction'),
+('Eleanor Oliphant is completely fine','4','Gail Honeyman','Harper Collins','Fiction'),
+('Discrete Mathematics and Its Applications','30','Kenneth Rosen','McGraw Hill','Discrete Structures'),
+('Essential Discrete Mathematics for Computer Science','40','Harry Lewis','Princeton University Press','Discrete Structures'),
+('Essentials of Discrete Mathematics:Third Edition','50','David J.Hunter','Jones and Bartlett Learning','Discrete Structures'),
+('Discrete Mathematics and Its Applications: With Combinatorics and Graph Theory','50','Kenneth Rosen','McGraw Hill','Discrete Structures'),
+('Introductory discrete mathematics','40','V. Balakrishnan','Dover Books','Discrete Structures'),
+('Introduction to Algorithms, Third Edition','60','Thomas H. Cormen','The MIT Press','Data Structures and Algorithms'),
+('Data Structures and Algorithms Made Easy in Java','35','Narasimha Karumanchi','Careermonk Publications','Data Structures and Algorithms'),
+('Data structures and algorithms in C++:3rd Edition','45','Adam Drozdek','Thomson Press','Data Structures and Algorithms'),
+('Data Structures and Algorithms in Python','50','Michael H. Goldwasser','Wiley','Data Structures and Algorithms'),
+('Algorithms Unlocked','55','Thomas H. Cormen','The MIT Press','Data Structures and Algorithms'),
+('The Algorithm Design Manual','43','Steven S. Skiena','Springer Publications','Data Structures and Algorithms'),
 ('Advanced Data Structures','60','Peter Brass','Cambridge Press','Data Structures and Algorithms'),
 ('Cracking the Coding Interview: 189 Programming Questions and Solutions 6th Edition','100','Gayle Laakmann McDowell','CareerCup','Data Structures and Algorithms'),
 ('Principles of Macroeconomics','50','N. Gregory Mankiw','Cengage Learning','Economics'),
@@ -148,6 +148,33 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('Version Control with Git','60','Jon Loeliger','O''Reilly Media','Software Systems Lab'),
 ('Git Pocket Guide: A Working Introduction','60','Richard E. Silverman','O''Reilly Media','Software Systems Lab'),
 ('Professional Git','30','Brent Laster','O''Reilly Media','Software Systems Lab')
+('Ulysses','10','James Joyce','Shakespeare and Company','Modernist novel')
+('The Great Gatsby','10','F. Scott Fitzgerald','New York : Scribner : Simon & Schuster, 2003','Historical Fiction')
+('A Potrait Of An Artist As A Young Man','10','James Joyce','B. W. Huebsch','Novel, Modern literature, Bildungsroman, Autobiography, Künstlerroman, Fictional Autobiography')
+('LOLITA','10','Vladimir Nabokov','Olympia Press','Novel')
+('BRAVE NEW WORLD','10','Aldous Huxley','Chatto & Windus','Science fiction')
+('THE SOUND AND THE FURY','10','William Faulkner','Jonathan Cape and Harrison Smith','Southern Gothic novel Modernist novel')
+('CATCH-22','10','Joseph Heller','Simon & Schuster','Dark comedy')
+('DARKNESS AT NOON','10','Arthur Koestler','Macmillan','Dark')
+('SONS AND LOVERS','10','D.H. Lawrence','Gerald Duckworth and Company Ltd','Autobiography')
+('THE GRAPES OF WRATH','10','John Steinbeck','The Viking Press-James Lloyd','Novel')
+('UNDER THE VOLCANO','10','Malcolm Lowry','Reynal & Hitchcock','Psychological Fiction')
+('THE WAY OF ALL FLESH','10','Samuel Butler','Grant Richards','Semi-autobiographical novel Social criticism')
+('1984','10','George Orwell','Secker & Warburg','Political fiction')
+('I, CLAUDIUS','10','Robert Graves','Arthur Barker (1st ed.)','Historical novel')
+('TO THE LIGHTHOUSE','10','Virginia Woolf','Hogarth Press','Modernism')
+('AN AMERICAN TRAGEDY','10','Theodore Dreiser','Boni & Liveright','Crime fiction Tragedy')
+('THE HEART IS A LONELY HUNTER','10','Carson McCullers','Houghton Mifflin','Psychological Fiction')
+('SLAUGHTERHOUSE-FIVE','10','Kurt Vonnegut','Delacorte','Dark comedy')
+('INVISIBLE MAN','10','Ralph Ellison','Random House','Bildungsroman African-American literature social commentary')
+('NATIVE SON','10','Richard Wright','Harper & Brothers','African-American literature')
+('HENDERSON THE RAIN KING','10','Saul Bellow','Viking Press','Humor')
+('APPOINTMENT IN SAMARRA','10','John O’Hara','Harcourt Brace & Company','short story')
+('U.S.A.(trilogy)','10','John Dos Passos','Modern Library','Modernist novel')
+('WINESBURG, OHIO','10','Sherwood Anderson','B. W. Huebsch','Short story cycle')
+('A PASSAGE TO INDIA','10','E.M. Forster','Edward Arnold, (UK) Harcourt Brace (US)','Fiction')
+('THE WINGS OF THE DOVE','10','Henry James','Archibald Constable & Co., London Charles Scribner's Sons, New York City','Romantic Novel')
+('THE AMBASSADORS','10','Henry James','Methuen & Co., London Harper & Brothers, New York City','Dark Comedy')
 ";
 $conn->query($querybook);
 

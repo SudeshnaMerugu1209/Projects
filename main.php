@@ -148,6 +148,33 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ('Version Control with Git','60','Jon Loeliger','O''Reilly Media','Software Systems Lab'),
 ('Git Pocket Guide: A Working Introduction','60','Richard E. Silverman','O''Reilly Media','Software Systems Lab'),
 ('Professional Git','30','Brent Laster','O''Reilly Media','Software Systems Lab')
+('Ulysses','10','James Joyce','Shakespeare and Company','Modernist novel')
+('The Great Gatsby','10','F. Scott Fitzgerald','New York : Scribner : Simon & Schuster, 2003','Historical Fiction')
+('A Potrait Of An Artist As A Young Man','10','James Joyce','B. W. Huebsch','Novel, Modern literature, Bildungsroman, Autobiography, Künstlerroman, Fictional Autobiography')
+('LOLITA','10','Vladimir Nabokov','Olympia Press','Novel')
+('BRAVE NEW WORLD','10','Aldous Huxley','Chatto & Windus','Science fiction')
+('THE SOUND AND THE FURY','10','William Faulkner','Jonathan Cape and Harrison Smith','Southern Gothic novel Modernist novel')
+('CATCH-22','10','Joseph Heller','Simon & Schuster','Dark comedy')
+('DARKNESS AT NOON','10','Arthur Koestler','Macmillan','Dark')
+('SONS AND LOVERS','10','D.H. Lawrence','Gerald Duckworth and Company Ltd','Autobiography')
+('THE GRAPES OF WRATH','10','John Steinbeck','The Viking Press-James Lloyd','Novel')
+('UNDER THE VOLCANO','10','Malcolm Lowry','Reynal & Hitchcock','Psychological Fiction')
+('THE WAY OF ALL FLESH','10','Samuel Butler','Grant Richards','Semi-autobiographical novel Social criticism')
+('1984','10','George Orwell','Secker & Warburg','Political fiction')
+('I, CLAUDIUS','10','Robert Graves','Arthur Barker (1st ed.)','Historical novel')
+('TO THE LIGHTHOUSE','10','Virginia Woolf','Hogarth Press','Modernism')
+('AN AMERICAN TRAGEDY','10','Theodore Dreiser','Boni & Liveright','Crime fiction Tragedy')
+('THE HEART IS A LONELY HUNTER','10','Carson McCullers','Houghton Mifflin','Psychological Fiction')
+('SLAUGHTERHOUSE-FIVE','10','Kurt Vonnegut','Delacorte','Dark comedy')
+('INVISIBLE MAN','10','Ralph Ellison','Random House','Bildungsroman African-American literature social commentary')
+('NATIVE SON','10','Richard Wright','Harper & Brothers','African-American literature')
+('HENDERSON THE RAIN KING','10','Saul Bellow','Viking Press','Humor')
+('APPOINTMENT IN SAMARRA','10','John O’Hara','Harcourt Brace & Company','short story')
+('U.S.A.(trilogy)','10','John Dos Passos','Modern Library','Modernist novel')
+('WINESBURG, OHIO','10','Sherwood Anderson','B. W. Huebsch','Short story cycle')
+('A PASSAGE TO INDIA','10','E.M. Forster','Edward Arnold, (UK) Harcourt Brace (US)','Fiction')
+('THE WINGS OF THE DOVE','10','Henry James','Archibald Constable & Co., London Charles Scribner's Sons, New York City','Romantic Novel')
+('THE AMBASSADORS','10','Henry James','Methuen & Co., London Harper & Brothers, New York City','Dark Comedy')
 ";
 $conn->query($querybook);
 

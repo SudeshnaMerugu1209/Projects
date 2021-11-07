@@ -63,7 +63,7 @@ if ($conn->connect_error) {
     if ($resultsview->num_rows > 0) {
         echo "<table class='books'><tr><th>Title</th><th>Author</th><th>Publisher</th><th>Genre</th></tr>";
         while($row = $resultsview->fetch_assoc()) {
-          echo "<tr><td>".strtolower($row["Title"])."</td><td>".$row["Author"]."</td><td>".$row["Publisher"]."</td><td>".$row["Genre"]."</td><tr>";
+          echo "<tr><td>".$row["Title"]."</td><td>".$row["Author"]."</td><td>".$row["Publisher"]."</td><td>".$row["Genre"]."</td><tr>";
         }
         echo "</table>";
       } else {

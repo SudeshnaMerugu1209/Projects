@@ -178,6 +178,17 @@ VALUES ('Thousand Splendid Suns','10','Khaled Hosseini','Bloomsbury','Literary F
 ";
 $conn->query($querybook);
 
+$querybooks = "CREATE TABLE Books(
+  BookId int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  Title varchar(120) UNIQUE,
+  Quantity int(6) ,
+  Author varchar(120) NOT NULL,
+  Publisher varchar(120) NOT NULL,
+  Genre varchar(50) 
+)";
+
+$conn->query($querybooks);
+
 
 $conn->close();
 ?>

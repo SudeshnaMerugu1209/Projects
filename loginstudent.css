@@ -42,3 +42,6 @@
   body{
       background-color: antiquewhite;
   }
+  .submitstudent:hover{
+      background-color: rgb(252, 252, 252);
+  }

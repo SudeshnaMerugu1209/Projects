@@ -64,7 +64,7 @@ if(isset($_POST['submitadmin'])){
           echo "<script>alert('".$passworderror."');</script>";
         } else {
         $password = test_input($_POST["passad"]);
-        $query1 = "SELECT Pass FROM Admins WHERE Pass = '$password'";
+        $query1 = "SELECT Password FROM Admins WHERE Password = '$password'";
         $result = $conn->query($query1);
         if($result->num_rows == 0 && empty($result->num_rows)){
            echo "<script>alert('Password is wrong. Please enter your password again.');</script>";

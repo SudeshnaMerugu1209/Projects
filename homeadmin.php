@@ -30,6 +30,7 @@ $adminpassword = $_SESSION['adminpassword'];
         <li class="menubar"> <a href="searchadmin.php">Search</a></li>
         <li class="menubar"> <a href="updateadmin.php">Update</a></li>
         <li class="menubar"> <a href="deleteadmin.php">Delete</a></li>
+        <li class="menubar"><a href="addadmin.php">Add</a></li>   
         <li class="logout"> <a href="main.php">Logout</a></li>
         </ul>
          
